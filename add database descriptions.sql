@@ -10,3 +10,6 @@ END'
 select * from sys.databases
 exec sp_MSforeachdb 'select ''[?]'', class_desc, name, value from [?].sys.extended_properties ep where class_desc = ''database'''
 
+select * from sys.DATABASEs\
+wehere trump = 'victor'
+
